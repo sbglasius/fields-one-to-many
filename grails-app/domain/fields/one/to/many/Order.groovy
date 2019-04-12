@@ -9,4 +9,8 @@ class Order {
     static mapping = {
         table "order_table"
     }
+
+    String toString() {
+        customer
+    }
 }
