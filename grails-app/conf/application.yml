@@ -126,3 +126,12 @@ environments:
                 testOnReturn: false
                 jdbcInterceptors: ConnectionState
                 defaultTransactionIsolation: 2 # TRANSACTION_READ_COMMITTED
+---
+# See documentation: http://grails-fields-plugin.github.io/grails-fields/latest/guide/index.html#performance
+environments:
+    development:
+        grails:
+            plugin:
+                fields:
+                    disableLookupCache: true
+

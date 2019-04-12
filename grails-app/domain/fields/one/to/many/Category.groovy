@@ -5,7 +5,4 @@ class Category {
     static constraints = {
     }
 
-    String toString() {
-        return name
-    }
 }
